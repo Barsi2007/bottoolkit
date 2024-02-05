@@ -11,9 +11,7 @@ from botbuilder.schema import ConversationReference
 from botbuilder.schema import ResourceResponse
 from loguru import logger
 
-from botkit.core import BotMessage
-
-clients = dict()
+from bottoolkit.core import BotMessage
 
 
 class WebAdapter(BotAdapter):
